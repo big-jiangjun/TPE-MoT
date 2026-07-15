@@ -106,15 +106,6 @@ bash scripts/eval_bev.sh   --config configs/evaluation/bev_nuscenes.yaml
 
 <div align="center">
 
-| Model | Params | Avg | BEV | Temporal |
-|:-----:|:------:|:---:|:---:|:--------:|
-| GPT-4o | — | 34.0 | ❌ | ❌ |
-| Gemini-2.5-Pro | — | 53.6 | ❌ | ❌ |
-| InternVL3-78B | 78B | 48.4 | ❌ | ❌ |
-| Cambrian-S-3B | 3B | 57.3 | ❌ | ❌ |
-| VLM-3R-7B | 7B | 60.9 | ❌ | ❌ |
-| **GeoAlign-4B** | **4B** | **71.4** | ❌ | ❌ |
-| **TPE-MoT (Ours)** | **5B** | **62.0** | **✅** | **✅** |
 
 </div>
 
@@ -123,14 +114,6 @@ bash scripts/eval_bev.sh   --config configs/evaluation/bev_nuscenes.yaml
 ### BEV Reconstruction (nuScenes)
 
 <div align="center">
-
-| Method | mIoU ↑ | HD ↓ | Notes |
-|:-------|:------:|:----:|:------|
-| BEVFormer | 56.9 | 0.82 | Single-task BEV only |
-| BEVFusion | 58.2 | 0.78 | Requires LiDAR |
-| PETR | 55.4 | 0.85 | Single-task BEV only |
-| **TPE-MoT (Ours)** | **XX.X** | **XX.X** | **Joint BEV + VSI** |
-
 </div>
 
 ### Ablation Studies
