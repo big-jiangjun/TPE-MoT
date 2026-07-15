@@ -31,7 +31,7 @@ Existing Vision-Language Models (VLMs) for spatial understanding fall into two c
 <div align="center">
 
 | Capability |  VLM-3R | **TPE-MoT (Ours)** |
-|:----------|:--------:|:------:|:------:|:----------------:|
+|:----------|:------:|:----------------:|
 | VSI-Bench Score | 60.9 | **xx** |
 | BEV Output | ❌ | **✅** |
 | Temporal Video | ❌ | **✅** |
