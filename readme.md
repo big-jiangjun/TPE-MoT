@@ -120,7 +120,7 @@ bash scripts/eval_bev.sh   --config configs/evaluation/bev_nuscenes.yaml
 
 | Configuration | VSI-Bench | BEV mIoU | Analysis |
 |:-------------|:---------:|:--------:|:---------|
-| Full Model | 62.0 | XX.X | Baseline |
+| Full Model | xx.x | XX.X | Baseline |
 | w/o Perception Expert | ↓ | ↓ | Expert is essential for both tasks |
 | w/o Pose Tokens | ↓ | ↓ | Camera pose provides geometric prior |
 | w/o Texture Encoder | ↓ | ↓ | Dynamic texture aids moving objects |
