@@ -30,12 +30,12 @@ Existing Vision-Language Models (VLMs) for spatial understanding fall into two c
 
 <div align="center">
 
-| Capability | GeoAlign | 3D-RFT | VLM-3R | **TPE-MoT (Ours)** |
+| Capability |  VLM-3R | **TPE-MoT (Ours)** |
 |:----------|:--------:|:------:|:------:|:----------------:|
-| VSI-Bench Score | 71.4 | 64.0 | 60.9 | **62.0** |
-| BEV Output | ❌ | ❌ | ❌ | **✅** |
-| Temporal Video | ❌ | ✅ | ❌ | **✅** |
-| Parameters | 4B | 4B~8B | 7B | **5B** |
+| VSI-Bench Score | 60.9 | **xx** |
+| BEV Output | ❌ | **✅** |
+| Temporal Video | ❌ | **✅** |
+| Parameters| 7B | **5B** |
 
 </div>
 
