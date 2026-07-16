@@ -1,0 +1,26 @@
+# Datasets and derived metadata
+data/
+resources/
+
+# Checkpoints, logs, and model artifacts
+work_dirs/
+outputs/
+output/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+
+# Python and extension build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+build/
+projects/mmdet3d_plugin/ops/build/
+
+# Tooling
+.idea/
+.vscode/
+.DS_Store
