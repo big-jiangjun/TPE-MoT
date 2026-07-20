@@ -111,6 +111,51 @@ bash scripts/eval_bev.sh   --config configs/evaluation/bev_nuscenes.yaml
 
 > **Note:** GeoAlign and 3D-RFT are specialized post-training methods limited to spatial QA. TPE-MoT is the **only model** in this family that simultaneously generates explicit BEV representations.
 
+### 3D Scene Reconstruction (VSI-Bench)
+
+The example below pairs the input video with its reconstructed 3D scene on **VSI-Bench**. It illustrates how TPE-MoT integrates powerful 3D spatial perception into the MoT framework: the model preserves scene geometry across temporal observations and transfers this spatial understanding to visual-spatial intelligence tasks.
+
+<table>
+  <tr>
+    <th width="50%">Input Video</th>
+    <th width="50%">3D Reconstruction</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/gifs/1ada7a0617.gif" width="100%" alt="VSI-Bench input video for scene 1ada7a0617">
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/glb_imgs/1ada7a0617.png" width="100%" alt="TPE-MoT 3D reconstruction for scene 1ada7a0617">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/gifs/41069048.gif" width="100%" alt="VSI-Bench input video for scene 41069048">
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/glb_imgs/41069048.png" width="100%" alt="TPE-MoT 3D reconstruction for scene 41069048">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/gifs/41159525.gif" width="100%" alt="VSI-Bench input video for scene 41159525">
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/glb_imgs/41159525.png" width="100%" alt="TPE-MoT 3D reconstruction for scene 41159525">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/gifs/scene0046_01.gif" width="100%" alt="VSI-Bench input video for scene scene0046_01">
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/glb_imgs/scene0046_01.png" width="100%" alt="TPE-MoT 3D reconstruction for scene scene0046_01">
+    </td>
+  </tr>
+</table>
+
+<p align="center"><i>Left: temporal RGB observations. Right: the corresponding reconstructed 3D scene.</i></p>
+
 ### BEV Reconstruction (nuScenes)
 
 <div align="center">
