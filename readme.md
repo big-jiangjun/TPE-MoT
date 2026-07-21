@@ -138,14 +138,6 @@ The example below pairs the input video with its reconstructed 3D scene on **VSI
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/gifs/41159525.gif" width="100%" alt="VSI-Bench input video for scene 41159525">
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/glb_imgs/41159525.png" width="100%" alt="TPE-MoT 3D reconstruction for scene 41159525">
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
       <img src="assets/gifs/scene0046_01.gif" width="100%" alt="VSI-Bench input video for scene scene0046_01">
     </td>
     <td width="50%" align="center">
